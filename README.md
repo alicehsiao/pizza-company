@@ -13,8 +13,8 @@ A website created with HTML, Javascript, and CSS that outputs the final cost aft
 | Spec | Input | Output |
 | :-------------     | :------------- | :------------- |
 | **The program outputs a cost for any size (S$8, M$10, L$12) pizza with 0 toppings.** | Input: S | Output: $8.00 |
-| **The program outputs a cost for any size pizza with 1 topping ($0.75 per topping) | Input: M, 1 topping | Output: $10.75 |
-| **The program outputs a cost for any size pizza with multiple toppings | Input: L, 3 toppings | Output: $14.25 |
+| **The program outputs a cost for any size pizza with 1 topping ($0.75 per topping)** | Input: M, 1 topping | Output: $10.75 |
+| **The program outputs a cost for any size pizza with multiple toppings** | Input: L, 3 toppings | Output: $14.25 |
 | **The program outputs a cost when a user orders more than one pizza with no toppings** | Input: S, M | Output: $18 |
 | **The program outputs a cost when a user orders more than one pizza with multiple toppings**| Input: S - 1 topping, L - 2 toppings | Output: $22.25 |
 
