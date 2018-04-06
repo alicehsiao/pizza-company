@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Alice's Pizza Company</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron text-center">
+        <h1>Alice's Pizza Company</h1>
+        <p>Place your order below.</p>
+      </div>
+      <form id="new-order">
+        <div class="form-group">
+          <label for="new-size">Choose a size:</label>
+          <select class="form-control" id="new-size">
+            <option>Small</option>
+            <option>Medium</option>
+            <option>Large</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <p>Choose your toppings:</p>
+          <input type="checkbox" name="pizza-topping" value="cheese">Cheese<br>
+          <input type="checkbox" name="pizza-topping" value="pepperoni">Pepperoni<br>
+          <input type="checkbox" name="pizza-topping" value="artichoke">Artichoke<br>
+          <input type="checkbox" name="pizza-topping" value="anchovy">Anchovy<br>
+          <input type="checkbox" name="pizza-topping" value="sausage">Sausage<br>
+          <input type="checkbox" name="pizza-topping" value="pineapple">Pineapple<br>
+          <input type="checkbox" name="pizza-topping" value="ham">Ham<br>
+          <input type="checkbox" name="pizza-topping" value="mushroom">Mushroom<br>
+          <input type="checkbox" name="pizza-topping" value="onion">Onion<br>
+        </div>
+        <button type="submit">Submit Form</button>
+      </form>
+      <span id="order-details">
+        <p><b>Order Details:</b></p>
+        <p>Pizza Size: <span class="size"></span></p>
+        <p>Toppings:</p>
+        <ul id="toppings">
+        </ul>
+        <p>Final Cost:</p>
+        <p>$<span class="cost"></span></p>
+      </span>
+    </div>
+  </body>
+</html>
